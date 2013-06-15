@@ -1,3 +1,11 @@
 .gist {
   font-size:60%
 }
+
+article img {
+  display:inline;
+}
+
+article img.block {
+  display:block;
+}
