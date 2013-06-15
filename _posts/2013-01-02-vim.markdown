@@ -1,0 +1,17 @@
+---
+layout: post
+title: "VIM"
+date: 2013-01-02 03:22
+comments: true
+categories: 
+---
+
+I dropped **TextMate 2** and **Sublime Text 2** this week.
+TextMate just felt a little bit obsolete and unsupported, and
+I just hated Sublime Text's problems with the color output in 
+the console (it was showing like `ESC` sequences - seriously, guys?)
+Also, turns out there is no syntax coloring for both of
+them for Forth language.
+
+So, I'm back on VIM! With [Alloy's fork with drawer](https://github.com/alloy/macvim)
+and [spf13](https://github.com/spf13/spf13-vim) config. Looks awesome!
