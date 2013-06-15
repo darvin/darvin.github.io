@@ -20,8 +20,7 @@ I wanted to have nice workflow to write to my [octopress](http://octopress.org)-
 First, I need Prose.io to be nice with octopress. I added these lines to end of `_config.yml` of Octopress blog:
 
 
-```yaml
-
+```
 prose:
   rooturl: "source"
   metadata:
