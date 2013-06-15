@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html lang="en-US" class="no-js ie ie6 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 7 ]><html lang="en-US" class="no-js ie ie7 lte7 lte8 lte9"><![endif]-->
+<!--[if IE 8 ]><html lang="en-US" class="no-js ie ie8 lte8 lte9"><![endif]-->
+<!--[if IE 9 ]><html lang="en-US" class="no-js ie ie9 lte9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en-US" class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5, minimum-scale=0.5">
+    <title>{{ page.title }}</title>
+    <link rel="profile" href="http://gmpg.org/xfn/11"/>
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/prettify.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/base.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/fixes.css">
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/darvin.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+
+    {% include JB/analytics %}
+
+    <meta name="generator" content="WordPress 3.5.1"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=8"/>
+</head>
+<body class="home blog">
+
+    <header id="sidebar">
+        <figure class="logo medium">
+            <a href="{{ BASE_PATH }}/">{{ site.title }}</a>
+        </figure>
+        <h1><a href="{{ BASE_PATH }}/">{{ site.title }}</a></h1>
+        <h2><a href="{{ BASE_PATH }}/">{{ site.author.name }}</a></h2>
+
+        <h3>{{ site.tagline }}</h3>
+
+        <ul id="user_nav">
+
+            <div class="menu">
+                <ul>
+                    <li class="page_item page-item-2"><a href="{{ BASE_PATH }}/archive.html">Archive</a></li>
+                    <li class="page_item page-item-2"><a href="{{ BASE_PATH }}/pages/projects.html">Projects</a></li>
+                    <li class="page_item page-item-2"><a href="http://github.com/{{ site.author.github }}">Github</a></li>
+
+                    <li class="page_item page-item-2"><a href="mailto:{{ site.author.email }}">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </ul>
+    </header>
+
+    <section id="river" role="main">
+        {{ content }}
+    </section>
+    <script src="{{ ASSET_PATH }}/js/prettify.js"></script>
+    <script type="text/javascript">
+        document.body.onload = function () {
+            var blocks = document.getElementsByTagName('pre');
+
+            for (var i = 0; i < blocks.length; i++) {
+                blocks[i].className += ' prettyprint';
+            }
+
+            prettyPrint();
+        }
+    </script>
+</body>
+</html>

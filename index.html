@@ -1,0 +1,29 @@
+---
+layout: default
+title: Blog
+---
+
+
+{% include JB/setup %}
+
+{% for post in site.posts %}
+   <!-- here add you post markup -->
+<header id="begin">
+  <time datetime="{{ post.date }}" id="top_time">{{ post.date | date_to_string }}</time>
+</header>
+
+<article class="post">
+
+<h2 class="entry-title">
+  <a href="{{ post.url }}" class="no-link" title="Permalink to {{ post.title }}" rel="bookmark">{{ post.title }}</a>
+</h2>
+
+<div class="entry-content">
+{{ post.content | split: '<!-- more -->' | first }}
+</div><!-- .entry-content -->
+        
+</article><!-- #post-## -->
+
+
+
+{% endfor %}
