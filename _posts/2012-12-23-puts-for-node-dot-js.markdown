@@ -6,6 +6,7 @@ comments: true
 categories: 
 ---
 
+
 ```
 coffee> puts = require 'puts'
 [Function]
