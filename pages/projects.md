@@ -8,7 +8,7 @@ description: ""
 # 2015
  - <i class="icon-github"></i> [enwiktionary-analyzer](https://github.com/darvin/enwiktionary-analyzer) - Parses English wiktionary and represents it in structured format. (+ helpers for [making](https://github.com/darvin/wiktionary-to-mongo) [it](https://github.com/darvin/wiktionary-to-mongo-analyzer) happen [beautifully](https://enwiktionary-analyzer.herokuapp.com/) and in CI manner [![Circle CI](https://circleci.com/gh/darvin/wiktionary-to-mongo-analyzer.svg?style=svg)](https://circleci.com/gh/darvin/wiktionary-to-mongo-analyzer) - thank you CircleCI! ) _JavaScript_
  - <i class="icon-github"></i> [Wiktionary Parser](https://github.com/darvin/wiktionary-parser) - First attempt to parse Wiktionary - from scratch, without slow [Parsoid](https://github.com/wikimedia/parsoid). Uses [JisonLex](https://github.com/zaach/jison-lex) for parser generation.  _JavaScript_
- - <i class="icon-github"></i> [Liverthbone](https://github.com/darvin/liverthbone) - Not finished implementation of [HearthStone](http://us.battle.net/hearthstone/).  _Swift/iOS_
+ - <i class="icon-github"></i> [Liverthbone](https://github.com/darvin/liverthbone) - Not finished implementation of [HearthStone](http://us.battle.net/hearthstone/). (Sister project: [Poker-Swift](https://github.com/darvin/Poker-Swift))  _Swift/iOS_
 
 # 2013 - 2015
 
