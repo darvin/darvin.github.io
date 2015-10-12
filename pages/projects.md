@@ -5,6 +5,10 @@ description: ""
 ---
 {% include JB/setup %}
 
+# 2015
+ - <i class="icon-github"></i> [enwiktionary-analyzer](https://github.com/darvin/enwiktionary-analyzer) - Parses English wiktionary and represents it in structured format. (+ helpers for [making](https://github.com/darvin/wiktionary-to-mongo) [it](https://github.com/darvin/wiktionary-to-mongo-analyzer) happen [beautifully](https://enwiktionary-analyzer.herokuapp.com/) and in CI manner [![Circle CI](https://circleci.com/gh/darvin/wiktionary-to-mongo-analyzer.svg?style=svg)](https://circleci.com/gh/darvin/wiktionary-to-mongo-analyzer) - thank you CircleCI! ) _JavaScript_
+
+
 # 2013
 
  - <i class="icon-usd"></i> [BirtdayGram](https://itunes.apple.com/nz/app/birthdaygram-social-birthday/id640347484?mt=8) - Social app for iOS. _Objective-C/iOS_, _CoffeeScript/NodeJS/expressjs/mongo_
