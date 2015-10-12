@@ -10,8 +10,6 @@ categories:
 <img src="http://www.wonderlandblog.com/.a/6a00d834515f7269e2011168984a2a970c-800wi" class="post" alt="Up" width="40%" heigth="40%" />
 
 
-[Quake Live](http://www.quakelive.com) web frontend was written by people without any taste for good names & with knowledge of [PHP](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)
-
 I spent an evening investigating their API, and here are some results:
 
 <!-- more -->
